@@ -1,0 +1,8 @@
+kQ5ZxN3.zip
+batch5kp.pem
+.hintrc
+.terraform.lock.hcl
+.terraform/
+app/
+terraform.tfstate
+terraform.tfstate.backup
