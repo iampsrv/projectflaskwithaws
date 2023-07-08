@@ -1,0 +1,7 @@
+---
+- name: Download file using wget
+  hosts: all
+
+  tasks:
+    - name: Download file
+      command: wget https://github.com/prometheus/node_exporter/releases/download/v1.5.0/node_exporter-1.5.0.linux-amd64.tar.gz --output-document=/opt/node_exporter-1.5.0.linux-amd64.tar.gz
